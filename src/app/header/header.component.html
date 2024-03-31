@@ -1,0 +1,21 @@
+<nav class="navegacion">
+    <div class="centrado">
+        <img src="../../assets/img/logo.jpg" alt="">
+    </div>
+    <div class="menu">
+        <ul class="lista-menu">
+            <li class="item-lista" [routerLink]="['/']" routerLinkActive="activo" [routerLinkActiveOptions]="{ exact: true }">
+                <img class="img-item-lista" src="../../assets/img/nuclear.svg"> 
+                <span class="centrado menu-text">Home</span>               
+            </li>
+            <li class="item-lista" [routerLink]="['/productos']" routerLinkActive="activo">
+                <img class="img-item-lista" src="../../assets/img/prismaticos.svg">
+                <span class="centrado menu-text">Prods</span> 
+            </li>
+            <li class="item-lista" [routerLink]="['/gestion']" routerLinkActive="activo">
+                <img class="img-item-lista" src="../../assets/img/volante.svg">
+                <span class="centrado menu-text">Gestion</span> 
+            </li>
+        </ul>
+    </div>
+</nav>

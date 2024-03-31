@@ -1,0 +1,29 @@
+.footer{
+    width: 100%;
+    height:180px;
+    color:white;
+    background-color:#333333 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.lista-footer{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+}
+span{
+    text-align: center;
+}
+.item-lista-footer{
+    border-right: 1px solid #ccc; /* Línea vertical entre elementos */
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.item-lista-footer:not(:last-child) {
+    border-right: 1px solid #ccc; /* Línea vertical entre elementos */
+}
+.span{
+    margin-bottom: 30px;
+}

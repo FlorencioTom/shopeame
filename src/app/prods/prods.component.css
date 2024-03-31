@@ -1,0 +1,31 @@
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
+.producto{
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: box-shadow 0.2s ease;
+}
+.producto:hover{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.img{
+    height: 200px;
+}
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.desc{
+    margin-bottom: 0px;
+}
+.estrella{
+    color:orange;
+    font-weight: bold;
+}

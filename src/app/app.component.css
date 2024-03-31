@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+.section{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    height:100%;
+}
+.contenido{
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    margin-right: 180px;
+    margin-left: 180px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    width: 100%;
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.25)); /* Sombra */
+}
+body{
+    background-color: #eeeeee;  
+}

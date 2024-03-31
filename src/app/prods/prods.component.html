@@ -1,0 +1,27 @@
+<div class="productos">
+    <div class="producto" *ngFor=" let prod of arrProductos">
+        <img class="img" [src]="prod.image" [alt]="prod.name">
+        <p class="desc"> {{prod.description}} </p>
+        <p class="precio"> {{prod.price}} </p>
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <span class="estrella"> {{prod.stars}}</span>
+                Estrellas
+            </div>
+            <button class="btn btn-outline-primary" (click)="modificar(prod.id!)">Editar</button>
+        </div>
+        
+    </div>
+    <div class="producto" *ngFor=" let nuevo of nuevos">
+        <img class="img" [src]="nuevo.image" [alt]="nuevo.name">
+        <p class="desc"> {{nuevo.description}} </p>
+        <p class="precio"> {{nuevo.price}} </p>
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <span class="estrella"> {{nuevo.stars}}</span>
+                Estrellas
+            </div>
+            <button class="btn btn-outline-primary">Editar</button>
+        </div>
+    </div>
+</div>
